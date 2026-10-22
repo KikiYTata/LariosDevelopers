@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Larios Developers</title>
+    <!-- 1. Load the Google reCAPTCHA API script -->
+    <script src="https://google.com" async defer></script>
+</head>
+<body>
+
+    <!-- Your signup or login form -->
+    <form action="/submit-form-endpoint" method="POST">
+        
+        <input type="text" name="username" placeholder="Username" required><br><br>
+        
+        <!-- 2. The reCAPTCHA widget container. Replace YOUR_PUBLIC_SITE_KEY with your actual site key -->
+        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqy3UMWAF2k65fTOHA59y39
+"></div>
+        
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
